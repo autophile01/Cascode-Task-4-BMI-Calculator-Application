@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bmibg.jpg);
+    background-size:100vw 100vh;   
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    background-color: rgba(4, 10, 50, 0.646);
+    height: fit-content;
+    width: fit-content;
+    margin: 10vh auto 8vh 12vw;
+    padding: 15px 30px;   
+    box-shadow: 10px 10px 10px bisque; 
+}
+h1{
+    color: bisque;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 10px 0 15px 0;
+}
+label{
+    color: white;
+    font-size: 25px;
+}
+.gender{
+    font-size: 20px;
+    color: bisque;
+}
+.box{
+    background-color: bisque;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    margin: 5px 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+.box:focus{
+    background-color: transparent;
+    color: bisque;
+    border: 5px solid bisque; 
+    outline: none; 
+}
+.box:focus::placeholder { color: bisque;   }
+button{
+    margin-left: 60px;
+    padding: 10px;
+    background-color: bisque;
+   border: none;
+   font-family: 'Dancing Script', cursive;
+   font-size: 20px;
+}
+#btn-2{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+button:hover{
+background-color: transparent;
+border: 5px solid bisque;
+color: bisque;
+}
+::placeholder{
+    color: black;
+}

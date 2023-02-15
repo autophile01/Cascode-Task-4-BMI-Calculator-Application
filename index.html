@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FAVICON -->
+    <link rel="icon" href="images/bmiicon.png">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <form action="" onsubmit="return false" method="post" autocomplete="off">
+            <h1>BMI Calculator</h1>
+
+            <label class="Gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label class="gender" for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label class="gender" for="female">Female</label><br><br>
+
+            <label for="Weight">Weight:</label><br>
+            <input class="box" name="Weight" id="weight" type="text" placeholder="Enter weight in kg"><br><br>
+
+            <label for="Height">Height:</label><br>
+            <input class="box" name="Height" id="height" type="text" placeholder="Enter height in ft"><br><br>
+
+            <label for="BMI">BMI:</label><br>
+            <input class="box" name="BMI" id="bmivalue" type="text"><br><br>
+
+            <button type="submit" id="btn-1" onClick="calculateBMI()">Calculate</button>  
+            <button type="reset" id="btn-2">Reset</button> 
+        </form>
+    </div>
+    <!-- JAVASCRIPT FILE -->
+    <script src="index.js"></script>
+</body>
+</html>
